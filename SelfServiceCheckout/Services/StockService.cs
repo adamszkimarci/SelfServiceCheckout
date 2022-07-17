@@ -15,6 +15,7 @@
 
             foreach (KeyValuePair<string, int> s in stock)
             {
+                //If the denomination is not defined we throw an exception
                 if(Enum.IsDefined(typeof(HufDenominations), Convert.ToInt32(s.Key)))
                 {
                     await InsertStock(storedStocks, s);
