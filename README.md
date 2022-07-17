@@ -13,3 +13,12 @@ This is a .NET Web API project with the following specifications:
  - Microsoft.EntityFrameworkCore.Design (v6.0.7) - Supports migrations
  - Microsoft.EntityFrameworkCore.SqlServer (v6.0.7) - Supports MSSQL Server connection
  - Swashbuckle.AspNetCore (v6.2.3) - Swagger
+ 
+ To run the project you will need to:
+
+- Stand in the ./SelfServiceCheckout directory and enter 'dotnet run' / 'dotnet watch run' in the console
+
+OR
+
+- Open the solution in Visual Studio and press the 'Play' button.
+
