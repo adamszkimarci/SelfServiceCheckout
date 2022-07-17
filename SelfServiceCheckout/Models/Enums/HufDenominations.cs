@@ -1,7 +1,5 @@
 ﻿namespace SelfServiceCheckout.Models.Enums
 {
-    public class HufDenomination
-    {
         public enum HufDenominations
         {
             [Description("5")]
@@ -29,5 +27,4 @@
             [Description("20000")]
             TwentyThousand = 20000
         }
-    }
 }
